@@ -1,0 +1,6 @@
+mongomapper:
+http://github.com/jnunemaker/mongomapper/commit/8f5d0d3969bf1ee5885aa97b45d1bd41f20ed7bd
+
+thinking-sphinx:
+http://github.com/freelancing-god/thinking-sphinx/commit/df63be1dec46588efd3cc37a196cb1026bab08dc
+	  
