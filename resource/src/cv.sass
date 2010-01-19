@@ -1,0 +1,60 @@
+@import grid
+@import text
+
+.section
+  :border 1px solid gray
+  :border-width 1px 0 0 0
+  :margin-top 20px
+  :padding-top 10px
+  +grid-container
+  :clear both
+
+.adr div, .email div, .tel div
+  :display inline-block
+
+#header
+  +grid-container
+  :margin 30px 0 10px 0
+
+.container
+  +grid-system(12)
+
+.offset_header
+  +grid(3,12)
+
+.summary_text
+  +grid(9,12)
+
+
+h1.fn
+  +grid(8,12)
+
+#contact-info
+  +grid(4,12)
+
+h2
+  +grid(12,12)
+
+dt
+  +grid(3,12)
+  .timespan
+    :font-size 150%
+dd
+  +grid(9,12)
+
+.clear
+  :clear both
+
+.list_block
+  :clear both
+  :margin-bottom 10px
+
+.position
+  :font-size 150%
+
+.example_block
+  :margin 10px 0 20px 10px
+ 
+.big-idea
+  :font-size 125%
+  :font-weight bold
