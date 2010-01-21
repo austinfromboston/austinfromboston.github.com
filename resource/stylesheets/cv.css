@@ -209,3 +209,14 @@ dd { display: inline; float: left; margin-left: 10px; margin-right: 10px; width:
 .example_block { margin: 10px 0 20px 10px; }
 
 .big-idea { font-size: 125%; font-weight: bold; }
+
+#gallery img { height: 150px; width: 150px; border: 1px solid gray; }
+
+#gallery .detail { width: 180px; float: left; margin-right: 10px; font-size: 12px; }
+#gallery .detail a { text-decoration: none; }
+
+#footer { text-align: right; }
+
+.valuable-flair { float: right; }
+
+h2 { font-weight: bold; }
