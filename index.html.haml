@@ -11,14 +11,14 @@
       #contact-info
 
         .tel
-          .type mobile
+          %span.type> mobile
           \:
-          .value 510-798-8170
+          %span.value 510-798-8170
       
         .email 
-          .type email
+          %span.type> email
           \:
-          .value 
+          %span.value 
             :plain
               <script type="text/javascript">
               //<![CDATA[
@@ -39,8 +39,8 @@
 
 
         .adr
-          .locality Oakland
-          .region CA
+          %span.locality Oakland
+          %span.region CA
 
       .clear
 
@@ -218,7 +218,8 @@
               
       #other-experience.section
         %h2 Other Experience
-        %ul#experience
+        %ul
+          .clear
           %li
             .position
               2006-2008:
@@ -237,6 +238,7 @@
       #education.section
         %h2 Education
         %ul#education
+          .clear
           %li
             1996-2000, 
             Tufts University, 
@@ -285,12 +287,6 @@
                 %img{ :src => '/resource/images/artsforla.png' }
               .clear
               %a{ :href => 'http://github.com/radicaldesigns/la-elected' } Local elected officials tracking
-            -#
-              .detail
-                %a{ :href => 'http://github.com/radicaldesigns/eaa-map' }
-                  %img{ :src => '/resource/images/eaa.png' }
-                .clear
-                %a{ :href => 'http://github.com/radicaldesigns/eaa-map' } Salsa-driven geocoding and mapping
 
             .detail
               %a{ :href => 'http://github.com/radicaldesigns/democracy_in_action' }
@@ -312,7 +308,6 @@
             %a{ :href => 'http://github.com/austinfromboston/lipstick' } accounting
             and
             %a{ :href => 'http://github.com/austinfromboston/stasi' } time-tracking 
-
 
 
       #footer.section

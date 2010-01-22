@@ -9,9 +9,6 @@
   +grid-container
   :clear both
 
-.adr div, .email div, .tel div
-  :display inline-block
-
 #header
   +grid-container
   :margin 30px 0 10px 0
@@ -31,6 +28,8 @@ h1.fn
 
 #contact-info
   +grid(4,12)
+  > div
+    :clear both
 
 h2
   +grid(12,12)
