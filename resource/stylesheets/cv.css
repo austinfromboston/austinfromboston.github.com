@@ -142,7 +142,7 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset { margi
 
 .section { border: 1px solid gray; border-width: 1px 0 0 0; margin-top: 20px; padding-top: 10px; margin-left: auto; margin-right: auto; width: 960px; clear: both; }
 
-#header { margin-left: auto; margin-right: auto; width: 960px; margin: 30px 0 10px 0; }
+#header { margin-left: auto; margin-right: auto; width: 960px; margin: 60px 0 10px 0; }
 
 .container { margin-left: auto; margin-right: auto; width: 960px; }
 .container .grid_1, .container .grid_2, .container .grid_3, .container .grid_4, .container .grid_5, .container .grid_6, .container .grid_7, .container .grid_8, .container .grid_9, .container .grid_10, .container .grid_11, .container .grid_12 { display: inline; float: left; margin-left: 10px; margin-right: 10px; }
@@ -187,7 +187,7 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset { margi
 
 .summary_text { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 700px; }
 
-h1.fn { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 620px; }
+h1.fn { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 620px; font-size: 275%; }
 
 #contact-info { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; }
 #contact-info > div { clear: both; }
@@ -219,3 +219,5 @@ dd { display: inline; float: left; margin-left: 10px; margin-right: 10px; width:
 .valuable-flair { float: right; }
 
 h2 { font-weight: bold; }
+
+.project-name { font-weight: bold; }

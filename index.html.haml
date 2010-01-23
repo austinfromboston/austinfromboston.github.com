@@ -123,28 +123,30 @@
               .idea
                 Lead technologist and partner in a small firm serving progressive, community-based nonprofits. 
               .idea
-                Gather requirements, estimate costs, set timelines and pair-program on client projects.
+                Gathered requirements, estimated costs, set timelines and pair-programmed on client projects.
               .idea
-                Resolve client issues, add features and maintain systems for hundreds of projects.
+                Resolved client issues, added features and maintained systems for hundreds of projects.
               .idea
-                Produce open source libraries from in-house work when appropriate.
+                Produced open source libraries from in-house work when appropriate.
 
               .idea
-                Implement Agile development methods for a 3 person team: 
+                Implemented Agile development methods for a 3 person team: 
                 daily scrum, story cards, retrospectives, pairing, behavior-driven development, powers-of-2 estimation.
 
               .idea
-                Scale our tools using cacheing and distributed architecture
+                Scaled our tools using cacheing and distributed architecture
 
               .idea
-                Mentor developers in all aspects of web technology,
-                train production staff and clients in how to use and extend their CMS.
+                Mentored developers in all aspects of web technology,
 
               .idea
-                Continue support for our flagship CMS, which I overhauled and expanded.
+                Continued support for our flagship CMS, which I overhauled and expanded.
 
               .idea
-                Engage in extensive monitoring, research and tinkering to guide technology adoption decisions.
+                Trained production staff and clients in how to use and extend their CMS.
+
+              .idea
+                Engaged in extensive monitoring, research and tinkering to guide technology adoption decisions.
 
             .clear
 
@@ -196,6 +198,7 @@
       #workshops.section
         %h2 Recent Workshops
         %ul#recent-workshops
+          .clear
           %li
             .position
               -#%a{ :href => 'http://railsbridge.org' } 
@@ -286,7 +289,7 @@
               %a{ :href => 'http://github.com/radicaldesigns/la-elected' }
                 %img{ :src => '/resource/images/artsforla.png' }
               .clear
-              %a{ :href => 'http://github.com/radicaldesigns/la-elected' } Local elected officials tracking
+              %a{ :href => 'http://github.com/radicaldesigns/la-elected' } Track local elected officials
 
             .detail
               %a{ :href => 'http://github.com/radicaldesigns/democracy_in_action' }
@@ -298,21 +301,27 @@
 
         .example_block
           %a.detail Some things I tinker with on my own time:
-          .clear
-          .detail
-            %a{ :href => 'http://github.com/austinfromboston/udon' }
-              A rapid prototyping system using Sinatra and MongoMapper
-          .detail
-            %a{ :href => 'http://github.com/austinfromboston/aquarius' } A prototype distrubuted CRM
-            using RubyCAS and cross-domain AJAX, including
-            %a{ :href => 'http://github.com/austinfromboston/lipstick' } accounting
-            and
-            %a{ :href => 'http://github.com/austinfromboston/stasi' } time-tracking 
+          %ul
+            .clear
+            
+            %li.detail
+              %a.project-name{ :href => 'http://github.com/austinfromboston/udon' }<>
+                Udon
+              \: a rapid prototyping system using Sinatra and MongoMapper
+            %li.detail
+              %a.project-name{ :href => 'http://github.com/austinfromboston/aquarius' }<> 
+                Aquarius
+              \: a prototype distrubuted CRM
+              using RubyCAS and cross-domain AJAX, including
+              %a{ :href => 'http://github.com/austinfromboston/lipstick' } accounting
+              and
+              %a{ :href => 'http://github.com/austinfromboston/stasi' } time-tracking 
 
 
       #footer.section
         %script{ :src => "http://stackoverflow.com/users/flair/117743.js?theme=clean" :type => "text/javascript" }
         .clear
         %p &nbsp;
+
         %p.detail
           composed in vim using haml, compass and 960 grid
