@@ -105,7 +105,7 @@ export default props => {
         <h1>Austin Putman</h1>
         <div className="headline">Software Engineering Leader</div>
         <div className="description">
-          <strong>I bring people together to achieve their goals.</strong>
+          <strong>I support teams that transform products and organizations.</strong>
           <ul>
             <li>As a leader and collaborator, I embrace honest dialog to achieve great results.</li>
 
