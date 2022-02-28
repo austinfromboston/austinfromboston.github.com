@@ -111,12 +111,20 @@ export default props => {
 
             <li>As an agile professional, I prioritize delivering immediate value for the project.</li>
 
-            <li>As a dedicated artisan, I look for opportunities to add delight in my work.</li>
+            <li>As a dedicated artisan, I find opportunities to delight and clarify with my work.</li>
           </ul>
           
         </div>
         <div className="section">
           <h2>Experience</h2>
+          <div className="headline">Geometer.io, Team Member, 2020-present</div>
+          <div className="location">San Francisco</div>
+          <ul>
+            <li>Built HIPAA-compliant infrastructure in AWS using CloudFormation for processing COVID-19 related case data</li>
+            <li>Created AWS Lambda data pipeline for ingesting positive COVID test results to contact tracing case management</li>
+            <li>Worked on multiple codebases for scaling up WebRTC connections in Elixir</li>
+            <li>Set up GCP infrastructure on Kubernetes for multiple teams</li>
+          </ul>
           <div className="headline">Omada Health, Staff Software Engineer, 2016-2020</div>
           <div className="location">San Francisco</div>
           <ul>
@@ -156,32 +164,25 @@ export default props => {
           </ul>
           <div className="headline">Radical Designs, Lead Developer, 2004-2010</div>
           <div className="location">San Francisco</div>
-          <ul>
-            <li>Lead technologist and partner in a small firm serving progressive, community-based nonprofits</li>
-            <li>Handled project management and proposal writing as well as implementations on client projects</li>
-            <li>Maintained test and production systems for a multi-user PHP CMS used by hundreds of sites</li>
-            <li>Faced APT and DDOS attacks from politically hostile groups</li>
-            <li>Hired and mentored developers in all aspects of web technology</li>
-          </ul>
-          
+         
         </div>
         <div className="skills">
           <h2>Skills</h2>
           <ul>
-            <li>Rails {bullets(6)}</li>
-            <li>AWS {bullets(3)}</li>
-            <li>Node {bullets(3)}</li>
-            <li>React {bullets(4)}</li>
             <li>APIs {bullets(5)}</li>
-            <li>Python {bullets(2)}</li>
-            <li>Testing {bullets(5)}</li>
-            <li>Docker {bullets(4)}</li>
+            <li>AWS {bullets(3)}</li>
             <li>Bash {bullets(4)}</li>
+            <li>Docker {bullets(4)}</li>
+            <li>Elixir {bullets(3)}</li>
+            <li>GCP {bullets(3)}</li>
             <li>Git {bullets(4)}</li>
-            <li>Jenkins {bullets(5)}</li>
-            <li>Databases {bullets(4)}</li>
-            <li>NoSQL {bullets(3)}</li>
             <li>Go {bullets(1)}</li>
+            <li>Jenkins {bullets(5)}</li>
+            <li>Node {bullets(3)}</li>
+            <li>Python {bullets(2)}</li>
+            <li>Rails {bullets(5)}</li>
+            <li>React {bullets(4)}</li>
+            <li>Testing {bullets(5)}</li>
           </ul>
         </div>
         <h2>Contact</h2>
