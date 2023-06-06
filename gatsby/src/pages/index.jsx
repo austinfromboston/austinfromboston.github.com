@@ -188,7 +188,7 @@ export default props => {
         <h2>Contact</h2>
         <ul>
           <div>( 5️⃣1️⃣0️⃣) 4️⃣7️⃣3️⃣&mdash; 7️⃣6️⃣3️⃣6️⃣</div>
-          <div>austin＠rawfingertips݀݀⋅com</div>
+          <div>austin＠moonlight.rodeo</div>
         </ul>
       </div>
     </Layout>
