@@ -11,13 +11,13 @@ const container = css`
   color: #333333;
 
   h1 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
   }
 
   h2 {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 12px;
     font-weight: 600;
     color: #c9cccf;
@@ -26,7 +26,7 @@ const container = css`
   }
 
   h3 {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     color: #c9cccf;
     text-transform: uppercase;
@@ -37,7 +37,7 @@ const container = css`
   }
 
   strong {
-    color: #c9cccf;
+    # color: #c9cccf;
     font-weight: 700;
   }
 
@@ -53,13 +53,14 @@ const container = css`
   }
 
   .section ul {
-    margin-top: 0.5rem;
+    margin-top: 0.25rem;
     margin-left: 2.5rem;
     list-style: disc;
   }
 
   .section li {
     margin-bottom: 0.2rem;
+    font-size: 12px;
   }
 
   .grey {
@@ -69,9 +70,13 @@ const container = css`
   .headline {
     display: block;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 1.2px;
     padding-top: 1rem;
+  }
+
+  .location {
+    font-size: 10px;
   }
 
   .skills ul {
@@ -82,6 +87,7 @@ const container = css`
 
   .skills li {
     margin-bottom: 1rem;
+    font-size: 9px;
     margin-right: 0.5rem;
     padding: 0.25rem 1rem;
     background-color: #f1f5f7;
@@ -117,7 +123,15 @@ export default props => {
         </div>
         <div className="section">
           <h2>Experience</h2>
-          <div className="headline">Geometer.io, Team Member, 2020-present</div>
+          <div className="headline">Bodyport, Senior Software Engineer, 2022-present</div>
+          <div className="location">San Francisco</div>
+          <ul>
+            <li>Implement full-stack features for clinicians in Svelte with a Flask backend</li>
+            <li>Advise on efficiency and security improvements in existing APIs and systems</li>
+            <li>Convert deployment to use Docker containers built via Github actions</li>
+            <li>Implemented frontend testing framework for Svelte</li>
+          </ul>
+          <div className="headline">Geometer.io, Team Member, 2020-2022</div>
           <div className="location">San Francisco</div>
           <ul>
             <li>Built HIPAA-compliant infrastructure in AWS using CloudFormation for processing COVID-19 related case data</li>
@@ -149,18 +163,13 @@ export default props => {
             <li>Recruit and train a startup team focused on rapid delivery and user value</li>
             <li>Evaluate and hire vendors to support our in-house team</li>
             <li>Promote our work and our people in the wider technical community</li>
-            <li>Code when necessary to support business goals</li>
             <li>Work with leaders from across the organization to create a supportive, effective workplace</li>
           </ul>
           <div className="headline">Pivotal Labs, Senior Software Engineer, 2010-2012</div>
           <div className="location">San Francisco</div>
           <ul>
-            <li>Build and retool web applications for clients.</li>
             <li>Train and collaborate with client staff on building products and exploring new technologies.</li>
-            <li>Rapidly learn unfamiliar platforms and technologies.</li>
             <li>Anchor projects and handle most communication between clients and Pivotal staff.</li>
-            <li>Introduce agile processes to client project management staff and developers.</li>
-            <li>Support process changes to address pain points in the development cycle.</li>
           </ul>
           <div className="headline">Radical Designs, Lead Developer, 2004-2010</div>
           <div className="location">San Francisco</div>
